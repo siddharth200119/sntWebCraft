@@ -1,0 +1,71 @@
+.title h1{
+    font-size: 8rem;
+    color: #DDDDDD;
+    margin: 10px 0 0 0;
+    font-family: 'Righteous', cursive;
+    animation: fadeIn 2s;
+}
+
+.title h2{
+    font-size: 2.1rem;
+    color: #DDDDDD;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    animation: fadeIn 3s;
+}
+
+.title{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature{
+    width: 20%;
+    min-height: 20rem;
+    border-radius: 10px;
+    margin: 0 4rem;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 5s;
+    transition: all 0.5s;
+}
+
+.feature:hover{
+    transform: scale(1.1);
+}
+
+.feature h1{
+    font-size: 2.5rem;
+    color: #DDDDDD;
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px black
+}
+
+.feature h2{
+    font-size: 1.2rem;
+    color: #DDDDDD;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    width: 70%;
+    text-shadow: 2px 2px black
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem 0;
+    width: 90%;
+    margin: 0 5%;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
